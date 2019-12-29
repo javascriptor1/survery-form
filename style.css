@@ -75,7 +75,7 @@ input{
 }
 
 
-
+/* 
 input[type="textarea"]{
     
     min-height: 120px;
@@ -83,6 +83,13 @@ input[type="textarea"]{
     margin-top:8px;
 
 }
+ */
 
+ textarea {
+    min-height: 120px;
+    width: 100%;
+    margin-top:8px;
+
+ }
 
 
