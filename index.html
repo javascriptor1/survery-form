@@ -19,13 +19,13 @@
     <form action="" id="survey-form">
         <div id="main-form">
             <label for="name"  >Name</label><br>
-            <input type="text" id="name" placeholder="Enter your name" id="name-label"><br><br>
+            <input type="text" id="name" placeholder="Enter your name" class="frm-grp"><br><br>
             <label for="email" id="email-label" >Email</label><br>
-            <input type="email" id="email" placeholder="Enter your email"><br><br>
+            <input type="email" id="email" placeholder="Enter your email" class="frm-grp"><br><br>
             <label for="number" id="number-label" >Age(Optional)</label><br>
-            <input type="number" id="number" min="5" max="100" placeholder="Age"><br><br>
+            <input type="number" id="number" min="5" max="100" placeholder="Age" class="frm-grp"><br><br>
             <p>Which option best describes your current role?</p>
-          <select name="" id="dropdown">
+          <select name="role" id="dropdown" class="frm-grp">
             <option value="Select your role" disabled selected>Select your role</option>
             <option value="Full time job" >Student</option>
             <option value="Full time job" >Full time jobs</option>
@@ -35,11 +35,11 @@
           </select><br>
             <br><p id="recommend-question">Would you recommend freeCodeCamp to a friend?</p>
             
-            <input type="radio" name="selectitem" value="New york">Definitely<br>
+            <input type="radio" name="selectitem" value="New york" >Definitely<br>
             <input type="radio" name="selectitem" value="London">Maybe <br>
             <input type="radio" name="selectitem" value="Beirut">Not sure <br>
            <br> <p>What is your favorite feature of freeCodeCamp?</p>
-        <select name="" id="dropdown"><br>
+        <select name="chlng" id="dropdown" class="frm-grp"><br>
             <option value="recommend-friend" disabled selected>Select an option</option>
             <option value="recommend-friend" >Challenges</option>
             <option value="recommend-friend" >Projects</option>
